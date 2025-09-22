@@ -24,7 +24,7 @@ const Login = () => {
           <div className="w-20 h-20 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4 border-2 border-blue-700">
             <span className="text-3xl">🏛️</span>
           </div>
-          <h1 className="text-2xl font-bold text-blue-800 mb-2">Kisan Suvidha</h1>
+          <h1 className="text-2xl font-bold text-blue-800 mb-2">Fasal Market</h1>
           <p className="text-gray-700 font-medium">Government Admin Panel</p>
           <p className="text-sm text-gray-600 mt-1">मध्य प्रदेश कृषि विभाग</p>
         </div>

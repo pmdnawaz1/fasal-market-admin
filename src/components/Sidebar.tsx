@@ -20,7 +20,7 @@ const Sidebar = () => {
             <span className="text-blue-800 font-bold text-lg">🌾</span>
           </div>
           <div>
-            <h1 className="text-lg font-bold text-white">Kisan Suvidha</h1>
+            <h1 className="text-lg font-bold text-white">Fasal Market</h1>
             <p className="text-xs text-blue-200">Admin Panel</p>
             <p className="text-xs text-blue-300">कृषि विभाग</p>
           </div>
