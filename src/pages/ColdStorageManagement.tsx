@@ -31,8 +31,6 @@ interface ColdStorage {
 
 const ColdStorageManagement = () => {
   const [selectedTab, setSelectedTab] = useState<'overview' | 'facilities' | 'bookings' | 'analytics'>('overview')
-  const [selectedStorage, setSelectedStorage] = useState<string | null>(null)
-  const [showAddModal, setShowAddModal] = useState(false)
 
   const coldStorages: ColdStorage[] = [
     {
@@ -165,7 +163,7 @@ const ColdStorageManagement = () => {
           <h1 className="text-3xl font-bold text-gray-800">Cold Storage Management</h1>
           <p className="text-gray-600">Manage and monitor cold storage facilities</p>
         </div>
-        <Button onClick={() => setShowAddModal(true)}>
+        <Button onClick={() => console.log('Add facility')}>
           ➕ Add New Facility
         </Button>
       </div>
