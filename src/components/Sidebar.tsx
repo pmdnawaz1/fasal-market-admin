@@ -8,7 +8,10 @@ const Sidebar = () => {
     { path: '/procurement', label: 'Procurement Management', icon: '🏛️' },
     { path: '/tokens', label: 'Token Management', icon: '🎫' },
     { path: '/farmers', label: 'Farmer Management', icon: '👨‍🌾' },
+    { path: '/cold-storage', label: 'Cold Storage Management', icon: '🏢' },
+    { path: '/industries', label: 'Industry Management', icon: '🏭' },
     { path: '/reports', label: 'Reports & Analytics', icon: '📈' },
+    { path: '/analytics', label: 'System Analytics', icon: '📊' },
     { path: '/settings', label: 'Settings', icon: '⚙️' }
   ]
 

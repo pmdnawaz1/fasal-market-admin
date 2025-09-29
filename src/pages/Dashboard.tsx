@@ -13,10 +13,10 @@ const Dashboard = () => {
   }
 
   const recentActivity = [
-    { id: 1, type: 'farmer', message: 'नया किसान पंजीकृत: राम प्रसाद (सागर)', time: '5 मिनट पहले', icon: '👨‍🌾' },
-    { id: 2, type: 'procurement', message: 'खुराई मंडी में गेहूं खरीद शुरू', time: '15 मिनट पहले', icon: '🌾' },
-    { id: 3, type: 'token', message: 'आज के लिए 47 नए टोकन जारी', time: '32 मिनट पहले', icon: '🎫' },
-    { id: 4, type: 'payment', message: 'भुगतान संसाधित: ₹2.47L किसानों को', time: '1 घंटा पहले', icon: '💰' }
+    { id: 1, type: 'farmer', message: 'New farmer registered: Ram Prasad (Sagar)', time: '5 minutes ago', icon: '👨‍🌾' },
+    { id: 2, type: 'procurement', message: 'Wheat procurement started at Khurai Mandi', time: '15 minutes ago', icon: '🌾' },
+    { id: 3, type: 'token', message: '47 new tokens issued for today', time: '32 minutes ago', icon: '🎫' },
+    { id: 4, type: 'payment', message: 'Payment processed: ₹2.47L to farmers', time: '1 hour ago', icon: '💰' }
   ]
 
   const procurementCenters = [
